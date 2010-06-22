@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
-print "Would you like to set this machine up as an RPM repository?\n"
+print "Would you like to set this machine up as an RPM repository? (y/n)\n"
 answer = $stdin.gets.chomp
-if answer.first.lower == 'y'
+if answer.downcase[0].chr == 'y'
   print "OK - setting up RPM repo.\n"
 else
   print "OK - installing locally\n"
