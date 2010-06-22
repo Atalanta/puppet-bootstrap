@@ -1,0 +1,9 @@
+Puppet Bootstrap v 0.1
+----------------------
+
+This little tarball contains everything needed to install the standalone Puppet execution script, and the git version control system.  To get started, simply run the bootstrap s\
+cript.  This requires root privileges, so either su to root, be root, or run use sudo:
+
+$ sudo ./bootstrap
+
+This will install the tools, and run puppet to create a git user, and ssh key.
